@@ -1,8 +1,8 @@
 {
-  "name": "ex02",
+  "name": "ex05",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "start": "npx webpack serve --progress",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,5 +19,9 @@
     "webpack": "^5.64.2",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
