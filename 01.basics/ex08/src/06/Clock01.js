@@ -4,18 +4,20 @@ export default function() {
 
     const date = new Date();
 
-    const hours = date.getHours();
-    const minutes = date.getMinutes();
-    const seconds = date.getSeconds();
+    let hours = date.getHours();
+    const minutes = ('0' + date.getMinutes()).slice(-2);
+    const seconds = ('0' + date.getSeconds()).slice(-2);
 
     let session = 'AM';
-    if(hours > 12){
+    if(hours > 12) {
         session = 'PM';
     }
 
-    return{
+    hours = ('0' + hours).slice(-2);
+
+    return (
         <div>
             {hours} : {minutes} : {seconds} {session}
         </div>
-    }
-}
+    )
+} 

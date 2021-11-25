@@ -7,7 +7,7 @@ ex08: JSX Tutorials
 05. 클래스 컴포넌트 만들기
 06. 특징3: JSX 표현식 표기법 {expression} 과 문제점
 07. 특징4: 공백  //src06에서 설명함
-08. Dynamic HTML Rendering
+08. Dynamic HTML Rendering // ./src/07
 09. Comment
 
 설치:
