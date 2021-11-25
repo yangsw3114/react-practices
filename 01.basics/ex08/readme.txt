@@ -8,7 +8,7 @@ ex08: JSX Tutorials
 06. 특징3: JSX 표현식 표기법 {expression} 과 문제점
 07. 특징4: 공백  //src06에서 설명함
 08. Dynamic HTML Rendering // ./src/07
-09. Comment
+09. Comment //./src/08
 
 설치:
 $ npm i -D webpack webpack-cli webpack-dev-server babel-loader style-loader css-loader sass-loader node-sass @babel/core @babel/cli @babel/preset-env @babel/preset-react
