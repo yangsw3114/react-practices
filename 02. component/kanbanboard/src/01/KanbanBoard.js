@@ -1,6 +1,6 @@
 import React from 'react';
-import cards from './data.json';
-import './assets/styles.css';
+import cards from './assets/json/data.json';
+import './assets/css/styles.css';
 import CardList from './CardList';
 
 export default function() {
