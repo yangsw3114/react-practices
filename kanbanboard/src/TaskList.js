@@ -9,10 +9,7 @@ export default function TaskList({name, done}){
             <ul>
                 <Task name ={name} done = {done} />
             </ul>
-            <input 
-                type='text'
-                className={styles['TaskList--add-task']}
-                placeholder='태스크 추가' />
+
         </div>
     );
 }
