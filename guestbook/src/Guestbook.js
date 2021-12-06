@@ -11,7 +11,10 @@ export default function Guestbook() {
     useEffect(() => {
         console.log('최초 메세지 리스트 가져오기');        
         fetchMessageList();
-    }, []); //[] 이거없으면 렌더링할때마다 호출
+    }, []); 
+    // [] 있을경우 마운트 될때만 실행된다.
+    // [] 없을경우 리렌더링 될때마다 실행
+    // [name] => 특정 값(ex..name)이 업데이트 될때마다 실행
 
     const notifyMessage = {
         add: function(message) {
