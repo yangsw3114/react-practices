@@ -34,8 +34,8 @@ module.exports = (env) => {
             contentBase: path.resolve('frontend/public'),
             watchContentBase: true,
             host: "0.0.0.0",
-            port: 9999,
-            proxy:{
+            port: 9090,
+            proxy: {
                 '/api': 'http://localhost:8888'
             },
             inline: true,
